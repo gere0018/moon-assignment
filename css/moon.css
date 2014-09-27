@@ -39,6 +39,9 @@ body{
 }
 h1, h2, h3, h4{
 	font-family: "Droid Serif",serif;  /* you need a font stack here */
+    text-shadow: 10px;
+    
+    
 }
 h1{
     font-size: 6.854rem;
@@ -49,6 +52,7 @@ h1{
 h2{
     font-size: 4.236rem;
     color: #CC3300;
+    padding-right: 100px;
 	
 }
 h3{

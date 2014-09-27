@@ -14,13 +14,13 @@ font-families
 Droid Serif, Droid Sans
 
 colors
-#000000
-#222222
-#333333
-#D4D4D4
-#CC3300
-#BADA55
-#FFFFFF
+#000000 black
+#222222 black greyish
+#333333 black greyish
+#D4D4D4 light grey
+#CC3300 red
+#BADA55 green
+#FFFFFF white
 plus the shadow for the text
 
 
@@ -38,22 +38,28 @@ body{
 	background-color: #222;
 }
 h1, h2, h3, h4{
-	font-family:serif;  /* you need a font stack here */
+	font-family: "Droid Serif",serif;  /* you need a font stack here */
 }
 h1{
+    font-size: 6.854rem;
+    color: #FFFFFF;
+    padding: 10px 500px 60px 50px;
 	
 }
 h2{
+    font-size: 4.236rem;
+    color: #CC3300;
 	
 }
 h3{
-	
+	font-size: 2.618rem;
+    color: #CC3300;
 }
 h4{
 	
 }
 p, li, a{
-	font-family: sans-serif; /* you need a font stack here */
+	font-family: "Droid Sans", sans-serif; /* you need a font stack here */
 }
 img{
 	width:90%;
@@ -62,7 +68,11 @@ img{
 }
 ul{
 	list-style-type: none;
+    
+    
 }
+
+
 a:link, a:visited{
 	transition: all 0.8s linear;
 }
@@ -79,15 +89,22 @@ a:hover, a:active, a:focus{
 	min-width: 400px;
 	margin:0 auto 2.0rem;
 	background-color: #d4d4d4;
+     
 }
 .header{
+    background-image: url(../img/moon-header.jpg);
+    background-position: right,center;
+    background-repeat: no-repeat;
 	background-color: #000;
     min-height: 400px;
 }
 .main{
+    padding: 1rem 3rem 0rem 3rem;
 	
 }
 .footer{
+    background-color:#333333; 
+    height: 200px;
 	
 }
 
@@ -99,6 +116,7 @@ a:hover, a:active, a:focus{
 .footer a:link,
 .footer a:visited{
 	display: block;
+    
 	
 }
 .footer a:hover,
@@ -121,9 +139,13 @@ a:hover, a:active, a:focus{
 	
 }
 .main p{
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
 	
 }
 .main img{
+    border-radius: 10px;
+    width: 27%;
 	/* use border-radius to crop image */
 	/* choose a width percentage for the image too */
 }
@@ -133,8 +155,12 @@ a:hover, a:active, a:focus{
 	margin-bottom: 10px;
 }
 .footer p{
+    padding: 30px 40px 20px 40px;
     
 }
 .footer li{
+    width: 50%;
+    
     /* make these 50% the width of the footer */
 }
+

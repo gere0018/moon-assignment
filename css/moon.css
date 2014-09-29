@@ -27,32 +27,35 @@ plus the shadow for the text
 ***********************************/
 
 *{
+    /* makes sure page stays centered??*/
 	padding:0;
 	margin:0;
+
 }
 
 /***********************************
 		DEFAULTS
 ***********************************/
 body{
-	background-color: #222;
+	background-color: #000000;
 }
 h1, h2, h3, h4{
 	font-family: "Droid Serif",serif;  /* you need a font stack here */
-    text-shadow: 10px;
+ text-shadow: 2px 2px 2px #000;   
     
     
 }
 h1{
     font-size: 6.854rem;
     color: #FFFFFF;
-    padding: 10px 500px 60px 50px;
-	
+    padding-right: 50%;
+    text-align:right;
+	text-shadow: 2px 2px 2px #D4D4D4;
 }
 h2{
     font-size: 4.236rem;
     color: #CC3300;
-    padding-right: 100px;
+    padding: 0px 100px 20px 0px;
 	
 }
 h3{
@@ -72,6 +75,9 @@ img{
 }
 ul{
 	list-style-type: none;
+    max-width:  width: 760px;
+    padding-left: 70px;
+    padding-top: 30px;
     
     
 }
@@ -107,8 +113,9 @@ a:hover, a:active, a:focus{
 	
 }
 .footer{
-    background-color:#333333; 
+    background-color:#333333;
     height: 200px;
+    text-shadow: 
 	
 }
 
@@ -120,13 +127,18 @@ a:hover, a:active, a:focus{
 .footer a:link,
 .footer a:visited{
 	display: block;
+    color:#CC3300;
+    text-decoration: underline;
     
 	
 }
 .footer a:hover,
 .footer a:active,
 .footer a:focus{
-	
+	color: yellow;
+    transition: all .6s linear;
+    text-decoration: none;
+    outline: none;
 }
 
 
@@ -148,7 +160,7 @@ a:hover, a:active, a:focus{
 	
 }
 .main img{
-    border-radius: 10px;
+    border-radius: 45px;
     width: 27%;
 	/* use border-radius to crop image */
 	/* choose a width percentage for the image too */
@@ -159,11 +171,17 @@ a:hover, a:active, a:focus{
 	margin-bottom: 10px;
 }
 .footer p{
-    padding: 30px 40px 20px 40px;
+    padding: 10px 40px 30px 40px;
+    clear:both;
     
 }
 .footer li{
     width: 50%;
+    float:left;
+    padding-bottom: 10px;
+    text-shadow: 0px 0px 2px #BADA55;
+    
+    
     
     /* make these 50% the width of the footer */
 }

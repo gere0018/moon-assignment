@@ -160,7 +160,7 @@ a:hover, a:active, a:focus{
 	
 }
 .main img{
-    border-radius: 45px;
+    border-radius: 60px;
     width: 27%;
 	/* use border-radius to crop image */
 	/* choose a width percentage for the image too */

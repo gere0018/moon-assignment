@@ -179,10 +179,8 @@ a:hover, a:active, a:focus{
     width: 50%;
     float:left;
     padding-bottom: 10px;
-    text-shadow: 0px 0px 2px #BADA55;
     
-    
-    
+
     /* make these 50% the width of the footer */
 }
 
